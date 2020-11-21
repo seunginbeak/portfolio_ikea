@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+html {font-size: 20px;}
+body {font-size: 1rem; letter-spacing: -1px;}
+body a {text-decoration: none;}
+
+/* 헤더 영역 */
+.header > div {width: 100%; padding: 25px 10px;}
+.header .right > div > .nav {display: none;}
+.header .right > div > .search {display: none;}
+
+/* 비주얼 영역 */
+.visual {height: auto; padding: 20px 0; box-sizing: border-box;}
+.visual .main {height: auto;}
+.visual .main .content {position: static; height: auto;}
+.visual .main .content > li > ul > .image {position: static; top: auto; transform: none;  width: 80%; margin: 0 auto;}
+.visual .main .content > li > ul > .text {position: static; width: 80%; margin: 0 auto; padding: 30px 0;}
+.visual .main .content > li > ul > .text > .strapline {font-size: 16px;}
+.visual .main .content > li > ul > .text > .main_text {display: none;}
+
+.visual .gallery {width: auto; height: auto; padding: 0; background-color: inherit;}
+.visual .gallery > .sub {width: 225px; height: auto; margin: 0 auto;}
+.visual .gallery > .sub > li {width: auto; height: auto; margin: 0 10px; padding: 0; filter: none;}
+.visual .gallery > .sub > li.on > a {background-color: white;}
+.visual .gallery > .sub > li > a {width: 25px; height: 25px; border-radius: 25px;}
+.visual .gallery > .sub > li > a > img {display: none;}
+
+/* 홈데코 */
+.home_deco {width: 100%; margin: 35px auto; padding: 0 10px; }
+.home_deco .product > ul > li {width: 49%; margin-bottom: 2%; border: 1px solid black;  box-sizing: border-box;}
+.home_deco .product > ul > li:nth-child(even) {margin: 0;}
+.home_deco .product > ul > li > a > img {padding: 10px 65px;}
+.home_deco .product .text {height: 160px; margin: 0; padding: 10px 20px; background-color: rgb(229, 229, 229);}
+
+/*칸텐트 영역 */
+.cont {width: 100%; margin: 35px auto; padding: 0 10px; box-sizing: border-box;}
+.cont .text {width: 85%; height: 200px; margin: 0 auto; margin-top: -120px; padding: 30px 0; background-color: white; }
+.cont .text > span {display: block; position: static; top: 0; left: 0; height: auto; line-height: normal; background-color: inherit;}
+.cont .text .detail_text {position: absolute; bottom: 0; left: 0;}
+
+/* ikea 주요정보 */
+.main_infor .bg_color {height: 300px;}
+.main_infor .content {margin-top: -300px; padding: 0 10px; box-sizing: border-box;}
+
+/* 오늘의 공간 */
+.today {margin: 35px auto; padding: 0 10px; box-sizing: border-box;}
+.today > h2 {padding: 35px 0 0 0;}
+
+/* 푸터영역 */
+.footer {width: 100%; padding: 0 10px; box-sizing: border-box;}

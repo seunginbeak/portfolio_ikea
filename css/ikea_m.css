@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+html {font-size: 16px;}
+body { font-size: 1rem; }
+body a {text-decoration: none; color: black;}
+.wrap { min-width: 320px; letter-spacing: -1px;}
+
+/* 헤더 영역 */
+.header {width: 100%; padding: 0 10px; box-sizing: border-box;}
+.header > div {width: 100%; height: 60px; margin: 0; padding: 10px 10px;}
+.header > div > h1 {width: 90px; height: 35px; background: url("../image/common/ikea_logo.png") no-repeat center; background-size: cover;}
+.header .right {padding-left: 0;}
+.header .right > div {position: static; padding: 0;}
+.header .right > div > .nav {display: none;}
+.header .right > div > .search {display: none;}
+
+.header .right > div > .gnb > ul > li {height: 60px; line-height: 60px; padding: 0 5px;}
+
+/* 사이드바 */
+.sidebar .menu {width: 100%;}
+.sidebar .menu .gnb > ul { width: 100%;}
+.sidebar .menu .gnb .detail_menu_header .detail_menu_nav {left: 0; bottom: 0; width: 100%; z-index: 100; background-color: white;}
+.sidebar .menu .gnb .detail_menu_header .detail_menu_nav > ul {padding: 0;}
+
+.sidebar .close {position: static;}
+.sidebar .close::before {color: rgb(44,44,44);}
+
+/* 비주얼 영역 */
+.visual {height: auto; padding: 20px 0; box-sizing: border-box;}
+.visual .main {height: auto;}
+.visual .main .content {position: static; height: auto;}
+.visual .main .content > li > ul > .image {position: static; top: auto; transform: none;  width: 80%; margin: 0 auto;}
+.visual .main .content > li > ul > .text {position: static; width: 80%; margin: 0 auto; padding: 30px 0;}
+.visual .main .content > li > ul > .text > .strapline {font-size: 16px;}
+.visual .main .content > li > ul > .text > .main_text {display: none;}
+
+.visual .gallery {height: auto; padding: 0; background-color: transparent;}
+.visual .gallery > .sub {width: 225px; height: auto; margin: 0 auto;}
+.visual .gallery > .sub > li {width: auto; height: auto; margin: 0 10px; padding: 0; filter: none;}
+.visual .gallery > .sub > li.on > a {background-color: white;}
+.visual .gallery > .sub > li > a {width: 25px; height: 25px; border-radius: 25px;}
+.visual .gallery > .sub > li > a > img {display: none;}
+
+
+
+/* 홈데코 */
+.home_deco {width: 100%; margin: 35px auto; padding: 0 10px; border-bottom: none; }
+.home_deco > h2 {font-size: 20px;}
+.home_deco > p {font-size: 16px;}
+.home_deco .menu {overflow: auto;}
+.home_deco .menu > ul {width: 850px;}
+.home_deco .menu > ul > li {margin: 5px 10px; padding: 8px 20px;}
+.home_deco .menu > ul > li > a {font-size: 14px;}
+.home_deco .product {overflow: hidden;}
+.home_deco .product > ul {width: 400%;}
+.home_deco .product > ul > li {width: 25%; margin-right: 0; border: 1px solid black;  box-sizing: border-box;}
+.home_deco .product > ul > li:nth-child(even) {margin: 0;}
+.home_deco .product > ul > li > a > img {display: block; width: 250px; margin: 0 auto;}
+.home_deco .product .text {height: 130px; margin: 0; padding: 5px 20px; background-color: rgb(229, 229, 229);}
+.home_deco .product .text > strong {font-size: 16px;}
+.home_deco .product .text > p {font-size: 13px;}
+.home_deco .product .text > span {margin-left: 5px; font-size: 16px;}
+.home_deco .product .text .first_cost {font-size: 14px;}
+.home_deco .product .text .price_discount {font-size: 12px;}
+
+/*칸텐트 영역 */
+.cont {width: 100%; margin: 40px auto; padding: 0 10px; box-sizing: border-box;}
+.cont > div {float: none; width: 100%; margin-right: 0; margin-bottom: 20px;}
+.cont .text { width: 85%; margin: 0 auto; margin-top: -60px; padding: 25px 0; background-color: white; }
+.cont .text > span {display: block; position: static; top: 0; left: 0; height: auto; line-height: normal; background-color: inherit;}
+.cont .text > p {height: auto; padding: 20px 30px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.cont .text .detail_text > p {width: 120px; height: 30px; line-height: 30px;}
+.cont .text .detail_text > p > span {font-size: 14px;}
+
+/* ikea 주요정보 */
+.main_infor > h2 {font-size: 20px; }
+.main_infor .bg_color {height: 175px;}
+.main_infor .content {margin-top: -175px;}
+.main_infor .content > ul {width: 100%; margin-bottom: 0; padding: 0 10px; box-sizing: border-box;}
+.main_infor .content > ul > li {float: none; width: 100%; margin-right: 0; margin-bottom: 2%;}
+.main_infor .content > ul > li > span {font-size: 14px; }
+
+
+/* 오늘의 공간 */
+.today {margin: 35px auto; padding: 0 10px; box-sizing: border-box;}
+.today > h2 {padding: 35px 0 0 0; font-size: 20px;}
+.today > p {margin: 10px 0 30px 0; font-size: 14px;}
+.today > a > div {height: 220px;}
+.today > strong {font-size: 12px;}
+
+/* 푸터영역 */
+.footer {width: 100%; padding: 0 10px; }
+.footer .top > ul {padding: 20px 0;}
+.footer .top > ul > li {float: none; width: 100%; padding: 10px 0; box-sizing: border-box;}
+.footer .top > ul > li > h3 {height: 30px; line-height: 30px;}
+.footer .top > ul > li > ul {display: none;}
+.footer .bottom .copy > span {float: none;}
+.footer .bottom .copy > ul {float: none; width: 100%;}
+.footer .bottom .copy > ul > li { padding: 0 3px;}
+.footer .bottom .copy > ul > li > a {font-size: 12px;}
+.footer .bottom .ikea_korea > li {font-size: 13px;}
+.footer .bottom > p {font-size: 13px;}
