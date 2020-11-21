@@ -140,7 +140,7 @@ body a {text-decoration: none; color: black;}
 .cont > div:last-child {margin-right: 0;}
 .cont > div > a {display: block;}
 .cont .image {width: 100%;}
-.cont .image > img {width: 100%;}
+.cont .image > img {display: block; width: 100%;}
 .cont .image > img:hover {transform: scale(1.2); transition: 2s;}
 .cont .text {position: relative; background-color: rgb(244,244,244);}
 .cont .text > span {position: absolute; top: -40px; left: 0; height: 40px; padding: 0 30px; box-sizing: border-box; font-size: 18px; font-weight: bold; line-height: 40px;background-color: rgba(255,255,255, 0.5);}
@@ -160,7 +160,7 @@ body a {text-decoration: none; color: black;}
 .main_infor .content > ul::after {content: " "; display: block; clear: both;}
 .main_infor .content > ul > li {position: relative; float: left; width: 32%; margin-right: 2%; overflow: hidden;}
 .main_infor .content > ul > li:last-child {margin-right: 0;}
-.main_infor .content > ul > li > img {width: 100%;}
+.main_infor .content > ul > li > img {display: block; width: 100%;}
 .main_infor .content > ul > li > img:hover {transform: scale(1.2); transition: 2s;}
 .main_infor .content > ul > li > span {position: absolute; left: 0; bottom: 0; width: 150px; height: 30px; font-size: 16px; font-weight: 400; text-align: center; line-height: 30px; color: white; background-color: rgba(44, 42, 41, 0.5);}
 .main_infor .content > ul > li:hover > span {color: rgb(251,217,20); transition: 1s;}
@@ -170,7 +170,7 @@ body a {text-decoration: none; color: black;}
 .today > h2 {padding: 70px 0 0 0; font-size: 38px; font-weight: bold; text-align: center;}
 .today > p {margin: 15px 0 45px 0; text-align: center;}
 .tody > a {display: block;}
-.today > a > div {width: 100%; height: 500px; background: url("../image/common/_c5ab7216e7d352d1d8f42a4061e8b7ae.jpg") no-repeat center; background-size: cover;}
+.today > a > div {width: 100%; height: 500px; background: url("../image/common/c5ab7216e7d352d1d8f42a4061e8b7ae.jpg") no-repeat center; background-size: cover;}
 .today > a > div > span {color: transparent;}
 .today > strong  {font-size: 16px; font-weight: bold; color: rgb(108,108,108);}
 
