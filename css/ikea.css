@@ -105,7 +105,7 @@ body a {text-decoration: none; color: black;}
 .visual .gallery > .sub > li {float: left; width: 20%; height: 130px; padding-right: 20px; box-sizing: border-box; filter: grayscale(100%);}
 .visual .gallery > .sub > li.on {filter: grayscale(0%);}
 .visual .gallery > .sub > li > a {display: block; border: 2px solid white; box-sizing: border-box;}
-.visual .gallery > .sub > li > a > img {width: 100%;}
+.visual .gallery > .sub > li > a > img {display: block; width: 100%;}
 
 
 /* 홈데코 */
